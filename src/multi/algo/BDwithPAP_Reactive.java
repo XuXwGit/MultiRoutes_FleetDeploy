@@ -4,7 +4,6 @@ import ilog.concert.IloException;
 import ilog.cplex.IloCplex;
 import multi.*;
 import multi.model.DetermineModel;
-import multi.model.DualSubProblem;
 import multi.model.DualSubProblemReactive;
 import multi.model.MasterProblem;
 import multi.data.InputData;

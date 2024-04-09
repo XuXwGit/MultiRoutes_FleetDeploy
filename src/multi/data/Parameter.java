@@ -17,7 +17,7 @@ public class Parameter extends DefaultSetting {
 	private int[] numOfRoundTrips;
 	private int [] vesselSet;
 	private int [] vesselPathSet;
-	private int [] NumVesselPaths;
+	//private int [] NumVesselPaths;
 	private int [] PathSet;
 	private int [] initialEmptyContainer;
 	private int [] demandRequestSet;

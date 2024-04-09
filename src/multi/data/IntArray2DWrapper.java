@@ -1,8 +1,6 @@
 package multi.data;
 
 import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
 
 public class IntArray2DWrapper {
     private final int[][] array2D;

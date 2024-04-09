@@ -10,7 +10,6 @@ import multi.data.InputData;
 import multi.data.Parameter;
 import multi.data.Scenario;
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.List;
 
 public class CCGwithPAP extends CCG {

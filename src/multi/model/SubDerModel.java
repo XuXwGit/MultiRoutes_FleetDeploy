@@ -339,7 +339,7 @@ public class SubDerModel extends BasePrimalModel {
 		}
 	}
 	private void setOperationCost() throws IloException {
-		double operCost = 0;
+		double operationCost = 0;
 		// r∈R
 		for(int r = 0; r<p.getShippingRouteSet().length; r++)
 		{
@@ -347,14 +347,14 @@ public class SubDerModel extends BasePrimalModel {
 			for(int h=0;h<p.getVesselSet().length;h++)
 			{
 				for (int w = 0; w < p.getVesselPathSet().length; w++) {
-					operCost += p.getVesselOperationCost()[h]
+					operationCost += p.getVesselOperationCost()[h]
 							*p.getShipRouteAndVesselPath()[r][w]
 							*p.getVesselTypeAndShipRoute()[h][r]
 							*(int)(cplex.getValue(vVar[h][r]) + 0.5);
 				}
 			}
 		}
-		this.operationCost = operCost;
+		this.operationCost = operationCost;
 	}
 
 	public void changeConstraints(double[] uValue) throws IloException {
