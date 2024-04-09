@@ -1,0 +1,9 @@
+=========Base Status of Space-Time Network========
+TimeHorizon = 180
+ShipRoutes = 6
+Ports = 30
+Nodes = 1004
+Arcs = 2902
+Traveling Arcs = 969
+Transship Arcs = 1933
+VesselPaths = 115

@@ -1,0 +1,33 @@
+RequestID	OriginPort	DestinationPort	W_i_Earlist	Deadline Time
+1	A	B	1	180
+2	A	C	1	180
+3	A	D	1	180
+4	A	E	1	180
+5	A	F	1	180
+6	B	A	1	180
+7	B	C	1	180
+8	B	D	1	180
+9	B	E	1	180
+10	B	F	1	180
+11	C	A	1	180
+12	C	B	1	180
+13	C	D	1	180
+14	C	E	1	180
+15	C	F	1	180
+16	D	A	1	180
+17	D	B	1	180
+18	D	C	1	180
+19	D	E	1	180
+20	D	F	1	180
+21	E	A	1	180
+22	E	B	1	180
+23	E	C	1	180
+24	E	D	1	180
+25	E	F	1	180
+26	F	A	1	180
+27	F	B	1	180
+28	F	C	1	180
+29	F	D	1	180
+30	F	E	1	180
+
+

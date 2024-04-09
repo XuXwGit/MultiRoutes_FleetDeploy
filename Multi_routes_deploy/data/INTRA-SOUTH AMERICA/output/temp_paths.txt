@@ -1,0 +1,1 @@
+Path ID	OriginPort	OriginTime	DestinationPort	DestinationTime	PathTime	TransshipPort	TransshipTime	PortPath_length	PortPath	Arcs_length	ArcsID

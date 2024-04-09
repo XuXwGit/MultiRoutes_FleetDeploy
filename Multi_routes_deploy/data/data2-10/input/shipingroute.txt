@@ -1,0 +1,3 @@
+RouteID	NumPorts	Ports	NumCall	PortsofCall
+1	7	A,B,C,D,E,F,G	8	A,B,C,D,E,F,G,A
+2	5	H,D,F,I,J	6	H,D,F,I,J,H
